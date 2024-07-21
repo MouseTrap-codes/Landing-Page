@@ -38,9 +38,7 @@
     color: rgb(196, 205, 225);
 }
 
-.navbar a:focus{
-    color:rgb(54, 66, 101);
-}
+
 
 .logo  {
     margin-left: 200px;
@@ -90,8 +88,8 @@
 
 .left-half-1 button:hover{
     border-color: #1F2937;
-    background: white;
-    color: black;
+    background-color: #323d4e;
+    color: white;
 }
 
 
@@ -144,9 +142,8 @@
 }
 
 .buttons-container button:hover{
-    border-color: #1F2937;
-    background: white;
-    color: black;
+    background-color: #323d4e;
+    color: white;
 }
 
 .quote {
@@ -167,7 +164,7 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    background-color: #3e6078;
+    background-color: #1F2937;
   }
 
 .footer ul {
