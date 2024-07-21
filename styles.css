@@ -89,9 +89,9 @@
 }
 
 .left-half-1 button:hover{
-    background-color: #364252;
-    /* background-color: rgb(196, 205, 225);  */
-    color: white;
+    border-color: #1F2937;
+    background: white;
+    color: black;
 }
 
 
@@ -107,3 +107,84 @@
 }
 
 /* section 2 (cards) */
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.section-2 h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+/* styles.css */
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 300px;
+    word-wrap: break-word;
+
+    margin-bottom: 100px;
+}
+.buttons-container button {
+    width: 200px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    border-radius: 12px;
+}
+
+.buttons-container button:hover{
+    border-color: #1F2937;
+    background: white;
+    color: black;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    margin: 100px;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #3e6078;
+  }
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+.footer a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+
+
+
+ 
