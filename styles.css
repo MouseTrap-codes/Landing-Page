@@ -119,7 +119,7 @@
     margin-bottom: 50px;
 }
 
-/* styles.css */
+/* buttons css */
 .buttons-container {
     display: flex;
     flex-wrap: wrap;
@@ -146,6 +146,7 @@
     color: white;
 }
 
+/* quote css */
 .quote {
     display: flex;
     flex-direction: column;
@@ -160,6 +161,7 @@
     font-style: italic;
 }
 
+/* footer css*/
 .footer {
     display: flex;
     justify-content: space-between;
