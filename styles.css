@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .navbar ul {
@@ -50,8 +50,10 @@
 
 /* section-1 */
 .section-1{
+    background-color: #3e6078;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .left-half-1{
@@ -74,7 +76,7 @@
 }
 
 .left-half-1 button {
-    background-color: #3882F6; /* Green */
+    background-color: #1F2937;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -87,8 +89,11 @@
 }
 
 .left-half-1 button:hover{
-    background-color:#6eb8e5
+    background-color: #364252;
+    /* background-color: rgb(196, 205, 225);  */
+    color: white;
 }
+
 
 .right-half-1 {
     justify-content: flex-end;
@@ -100,3 +105,5 @@
     width: 300px;
     height: auto;
 }
+
+/* section 2 (cards) */
